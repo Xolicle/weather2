@@ -8,9 +8,9 @@ function App() {
       <header className="App-header">
         
         <h1>
-          Hello React from vscode
+         Weather App
         </h1>
-        <Weather city="Paris"/>
+        <Weather/>
       </header>
     </div>
   );
