@@ -16,11 +16,6 @@ function App() {
         Xolisile Ndlovu
       </p>
       </header>
-      
-      <div>
-        <p>Testing
-        </p>
-      </div>
     </div>
     
   );
