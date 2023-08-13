@@ -75,16 +75,16 @@ export default function Weather() {
   );
   } else{
     return(
-      <div>
-      <div>
+      <div className="loader">
+      <div className="loader-form">
       {form}
       </div>
-      <div>
+      <div className="loader-puff">
       <Puff
         height="80"
         width="80"
         radius={1}
-        color="#4fa94d"
+        color="white"
         ariaLabel="puff-loading"
         wrapperStyle={{}}
         wrapperClass=""

@@ -11,8 +11,18 @@ function App() {
          Weather App
         </h1>
         <Weather/>
+        <p>
+        <a href='https://github.com/Xolicle/weather2'>Coded by </a> 
+        Xolisile Ndlovu
+      </p>
       </header>
+      
+      <div>
+        <p>Testing
+        </p>
+      </div>
     </div>
+    
   );
 }
 

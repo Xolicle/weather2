@@ -2,13 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-
-
 
 .App-header {
   background-color: #282c34;
@@ -21,15 +14,16 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.loader-form {
+  margin-bottom: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loader-puff {
+  padding-left: 75px;
 }
+
+a{
+  text-decoration: none;
+}
+
+
