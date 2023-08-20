@@ -1,0 +1,14 @@
+.weatherDescription ul {
+  list-style: none;
+}
+
+.weatherTemp {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.weatherUnit {
+  font-size: 20px;
+  position: relative;
+  top: -25px;
+}
