@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
 
 export default function Weather(props) {
   const [city, setCity] = useState(props.defaultCity);
   const [weather, setWeather] = useState({ loading: false });
-  // const [dataReady, setDataReady] = useState(false);
 
   function showWeather(response) {
     setWeather({
@@ -17,6 +17,7 @@ export default function Weather(props) {
       icon: response.data.weather[0].icon,
       date: new Date(response.data.dt * 1000),
       city: response.data.name,
+      coordinates: response.data.coord,
     });
   }
   function handleSubmit(event) {
@@ -50,6 +51,7 @@ export default function Weather(props) {
           </div>
         </form>
         <WeatherInfo weatherData={weather} />
+        <WeatherForecast coordinates={weather.coordinates} />
       </div>
     );
   } else {

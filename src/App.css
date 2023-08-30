@@ -18,7 +18,7 @@ body {
 }
 .App footer {
   font-size: 11px;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 .weather form {
@@ -53,4 +53,13 @@ body {
   background-color: #724060;
   color: white;
   font-size: 18px;
+}
+
+.WeatherForecast {
+  text-align: center;
+}
+
+.minForecastTemperature {
+  opacity: 0.6;
+  margin-left: 5px;
 }
